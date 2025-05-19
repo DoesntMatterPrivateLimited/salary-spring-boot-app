@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Salary Budget Calculator</title></head>
+<body>
+  <h2>Enter Monthly Salary</h2>
+  <form method="get" action="/api/calculate">
+    <input type="number" name="salary" placeholder="e.g., 50000" required />
+    <button type="submit">Calculate</button>
+  </form>
+</body>
+</html>
